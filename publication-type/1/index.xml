@@ -5,7 +5,7 @@
     <link>https://vaidehi99.github.io/publication-type/1/</link>
       <atom:link href="https://vaidehi99.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://vaidehi99.github.io/media/icon_hu449e7cb7b9f33c637bc190f2f28092b4_9610_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>REFINESUMM: Self-Refining MLLM for Generating a Multimodal Summarization Dataset</title>
-      <link>https://vaidehi99.github.io/publication/refinesumm/</link>
-      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://vaidehi99.github.io/publication/refinesumm/</guid>
+      <title>Unlearning Sensitive Information in Multimodal LLMs: Benchmark and Attack-Defense Evaluation</title>
+      <link>https://vaidehi99.github.io/publication/unlok-vqa/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://vaidehi99.github.io/publication/unlok-vqa/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -36,9 +36,9 @@
     
     <item>
       <title>REFINESUMM: Self-Refining MLLM for Generating a Multimodal Summarization Dataset</title>
-      <link>https://vaidehi99.github.io/publication/unlok-vqa/</link>
+      <link>https://vaidehi99.github.io/publication/refinesumm/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://vaidehi99.github.io/publication/unlok-vqa/</guid>
+      <guid>https://vaidehi99.github.io/publication/refinesumm/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
