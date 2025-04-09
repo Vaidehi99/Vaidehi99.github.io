@@ -28,6 +28,15 @@
 
 /* Style for Experience Section (Internships) */
 /* Style for the Experience List */
+.talk-name a {
+  color: black;
+  font-weight: 500;
+}
+
+.talk-venue a {
+  color: gray;
+  font-style: italic;
+}
 .experience-list {
   list-style-type: disc; /* Adds bullet points */
   padding-left: 30px; /* Indentation for list */
@@ -912,40 +921,51 @@
             </section> -->
 
             <section class="pt-page pt-page-4" data-id="InvitedTalks">
-                <div class="border-block-top-110"></div>
-                <div class="section-inner">
-                  <div class="section-title-block">
-                    <div class="section-title-wrapper">
-                      <h2 class="section-title">Invited Talks</h2>
-                    </div>
+              <div class="border-block-top-110"></div>
+              <div class="section-inner">
+                <div class="section-title-block">
+                  <div class="section-title-wrapper">
+                    <h2 class="section-title">Invited Talks</h2>
                   </div>
-              
-                  <div class="block-title">
-                    <h3>Invited Talks</h3> <!-- Changed from h2 to h3 for better hierarchy -->
-                    <ul class="talks-list">
-                      <li>
-                        <p>
+                </div>
+            
+                <div class="block-title">
+                  <h3>Invited Talks</h3>
+                  <ul class="talks-list">
+                    <li>
+                      <p>
+                        <span class="talk-name">
                           <a href="https://drive.google.com/file/d/1ol8YV_CRbqk-jDinFgyzefKRHVxSX4xA/view" target="_blank">
                             Can Sensitive Information Be Deleted from LLMs? Objectives for Defending against Extraction Attacks
                           </a>
-                          <br>
+                        </span>
+                        <br>
+                        <span class="talk-venue">
                           <a href="https://mlcollective.org/dlct/" target="_blank">Deep Learning: Classics and Trends</a>
-                        </p>
-                        <span class="talk-date">- Sep 2024</span>
-                      </li>
-                      <li>
-                        <p>
+                        </span>
+                      </p>
+                      <span class="talk-date">- Sep 2024</span>
+                    </li>
+            
+                    <li>
+                      <p>
+                        <span class="talk-name">
                           <a href="" target="_blank">
-                            UPCORE: Utility-Preserving Coreset Selection for Balanced Unlearning                          </a>
-                          <br>
+                            UPCORE: Utility-Preserving Coreset Selection for Balanced Unlearning
+                          </a>
+                        </span>
+                        <br>
+                        <span class="talk-venue">
                           <a href="https://ploutos.dev" target="_blank">Ploutos</a>
-                        </p>
-                        <span class="talk-date">- Apr 2025</span>
-                      </li>
-                    </ul>
-                  </div>
+                        </span>
+                      </p>
+                      <span class="talk-date">- Apr 2025</span>
+                    </li>
+                  </ul>
                 </div>
-              </section>
+              </div>
+            </section>
+            
               
               
               <style>
