@@ -651,6 +651,26 @@
     </p>
     </li>
 
+
+    <p>
+        <strong><a href="https://arxiv.org/abs/2309.17410" target="_blank">The Sum Leaks More Than Its Parts: Compositional Privacy Risks and Mitigations in Multi-Agent Collaboration</a></strong> 
+        &nbsp; 
+        <a class="text-button3">Preprint</a>
+        <br> 
+        Vaidehi Patil, Elias Stengel-Eskin, Mohit Bansal
+        <br> 
+        <a href="javascript:toggleblock('dash_abs26')">Abstract</a> | 
+        <a href="https://arxiv.org/abs/2509.14284">ArXiv</a> | 
+        <a href="https://github.com/Vaidehi99/MultiAgentPrivacy" target="_blank">
+            <i class="fab fa-github w3-hover-opacity"></i>
+        </a> 
+    </p>
+    
+    <p align="justify">
+        <i style="display: none;" id="dash_abs26">
+          As large language models (LLMs) become integral to multi-agent systems, new privacy risks emerge that extend beyond memorization, direct inference, or single-turn evaluations. In particular, seemingly innocuous responses, when composed across interactions, can cumulatively enable adversaries to recover sensitive information, a phenomenon we term compositional privacy leakage. We present the first systematic study of such compositional privacy leaks and possible mitigation methods in multi-agent LLM systems. First, we develop a framework that models how auxiliary knowledge and agent interactions jointly amplify privacy risks, even when each response is benign in isolation. Next, to mitigate this, we propose and evaluate two defense strategies: (1) Theory-of-Mind defense (ToM), where defender agents infer a questioner's intent by anticipating how their outputs may be exploited by adversaries, and (2) Collaborative Consensus Defense (CoDef), where responder agents collaborate with peers who vote based on a shared aggregated state to restrict sensitive information spread. Crucially, we balance our evaluation across compositions that expose sensitive information and compositions that yield benign inferences. Our experiments quantify how these defense strategies differ in balancing the privacy-utility trade-off. We find that while chain-of-thought alone offers limited protection to leakage (~39% sensitive blocking rate), our ToM defense substantially improves sensitive query blocking (up to 97%) but can reduce benign task success. CoDef achieves the best balance, yielding the highest Balanced Outcome (79.8%), highlighting the benefit of combining explicit reasoning with defender collaboration. Together, our results expose a new class of risks in collaborative LLM deployments and provide actionable insights for designing safeguards against compositional, context-driven privacy leakage.
+    </li>
+
     <li>
         <p>
             <strong><a href="https://arxiv.org/abs/2410.12761" target="_blank">SAFREE: Train-free And Adaptive Guard For Safe Text-to-Image And Video Generation</a></strong> 
