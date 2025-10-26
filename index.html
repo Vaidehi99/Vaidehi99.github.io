@@ -661,7 +661,7 @@
 
 
     <p>
-        <strong><a href="https://arxiv.org/abs/2309.17410" target="_blank">The Sum Leaks More Than Its Parts: Compositional Privacy Risks and Mitigations in Multi-Agent Collaboration</a></strong> 
+        <strong><a href="https://arxiv.org/abs/2509.14284" target="_blank">The Sum Leaks More Than Its Parts: Compositional Privacy Risks and Mitigations in Multi-Agent Collaboration</a></strong> 
         &nbsp; 
         <a class="text-button3">Preprint</a>
         <br> 
@@ -677,6 +677,27 @@
     <p align="justify">
         <i style="display: none;" id="dash_abs26">
           As large language models (LLMs) become integral to multi-agent systems, new privacy risks emerge that extend beyond memorization, direct inference, or single-turn evaluations. In particular, seemingly innocuous responses, when composed across interactions, can cumulatively enable adversaries to recover sensitive information, a phenomenon we term compositional privacy leakage. We present the first systematic study of such compositional privacy leaks and possible mitigation methods in multi-agent LLM systems. First, we develop a framework that models how auxiliary knowledge and agent interactions jointly amplify privacy risks, even when each response is benign in isolation. Next, to mitigate this, we propose and evaluate two defense strategies: (1) Theory-of-Mind defense (ToM), where defender agents infer a questioner's intent by anticipating how their outputs may be exploited by adversaries, and (2) Collaborative Consensus Defense (CoDef), where responder agents collaborate with peers who vote based on a shared aggregated state to restrict sensitive information spread. Crucially, we balance our evaluation across compositions that expose sensitive information and compositions that yield benign inferences. Our experiments quantify how these defense strategies differ in balancing the privacy-utility trade-off. We find that while chain-of-thought alone offers limited protection to leakage (~39% sensitive blocking rate), our ToM defense substantially improves sensitive query blocking (up to 97%) but can reduce benign task success. CoDef achieves the best balance, yielding the highest Balanced Outcome (79.8%), highlighting the benefit of combining explicit reasoning with defender collaboration. Together, our results expose a new class of risks in collaborative LLM deployments and provide actionable insights for designing safeguards against compositional, context-driven privacy leakage.
+       </i>
+    </p>
+    </li>
+
+      <p>
+        <strong><a href="https://arxiv.org/abs/2509.24988" target="_blank">The Generalized Correctness Models: Learning Calibrated and Model-Agnostic Correctness Predictors from Historical Patterns</a></strong> 
+        &nbsp; 
+        <a class="text-button3">Preprint</a>
+        <br> 
+        Hanqi Xiao, Vaidehi Patil, Hyunji Lee, Elias Stengel-Eskin, Mohit Bansal
+        <br> 
+        <a href="javascript:toggleblock('dash_abs26')">Abstract</a> | 
+        <a href="https://arxiv.org/abs/2509.24988">ArXiv</a> | 
+        <a href="https://github.com/The-Inscrutable-X/CalibratedModelAgnosticCorrectness" target="_blank">
+            <i class="fab fa-github w3-hover-opacity"></i>
+        </a> 
+    </p>
+    
+    <p align="justify">
+        <i style="display: none;" id="dash_abs26">
+          Generating accurate and calibrated confidence estimates is critical for deploying LLMs in high-stakes or user-facing applications, and remains an open challenge. Prior research has often framed confidence as a problem of eliciting a model's "self-knowledge", i.e., the ability of an LLM to judge whether its own answers are correct; this approach implicitly assumes that there is some privileged information about the answer's correctness that is accessible to the model itself. However, our experiments reveal that an LLM attempting to predict the correctness of its own outputs generally performs no better than an unrelated LLM. Moreover, we hypothesize that a key factor in building a "Correctness Model" (CM) is exposure to a target model's historical predictions. We propose multiple methods to inject this historical correctness information, creating a Generalized Correctness Model (GCM). We first show that GCMs can be trained on the correctness data from many LLMs and learn patterns for correctness prediction applicable across datasets and models. We then use CMs as a lens for studying the source of correctness prediction ability and its generalization, systematically controlling their training data and finding that answer phrasing is a strong predictor for correctness. We further explore alternative methods of injecting history without training an LLM, finding that including history as in-context examples can help improve correctness prediction, and post-hoc calibration can provide complementary reductions in calibration error. We evaluate GCMs based on Qwen3-8B across 5 model families and the MMLU and TriviaQA datasets, as well as on a downstream selective prediction task, finding that reliable LLM confidence estimation is a generalizable and model-agnostic skill learned by systematically encoding correctness history rather than a model-specific skill reliant on self-introspection.
        </i>
     </p>
     </li>
